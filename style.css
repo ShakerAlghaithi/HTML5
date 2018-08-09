@@ -61,5 +61,13 @@ Auther: Shaker Alghaithi;
 	border-radius: 5px;
  	-webkit-border-radius: 5px;
  	-moz-border-radius: 5px;
-
+}
+.post-info {
+	font-size: 90%;
+	color: #999;
+	font-style: italic;
+	margin-top: -20px;
+}
+.post-content {
+	display: inline;
 }
