@@ -1,0 +1,65 @@
+/*  
+Theme Name: html5;
+Date : Aug 8 2018;
+Discription: learn baisc HTML5;
+Version: 1.0;
+Auther: Shaker Alghaithi;
+
+ */
+ body {
+ 	background-image: url('imges/background.jpg');
+ 	color: #000305;
+ 	font-size: 90%; /* base font size = 14px */
+ 	font-family: Arial, 'Lucida Sans Unicode';
+ 	line-height: l.5;
+ 	text-align: left;
+ }
+ a{
+ 	text-decoration: none;
+ }
+ a:link, a:visited {color: #e74c3c;}
+ a:hover, a:active {color: #f58233;}
+ .body {
+ 	margin: 10px auto;
+ 	width: 70%;
+ 	clear: both;
+ }
+ /* ----------------- 	MAIN HEADER -----------*/
+ .mainheader img {
+ 	width: 100%;
+ }
+ .mainheader nav {
+ 	background-color: #e74c3c;
+ 	height: 40px;
+ 	border-radius: 5px;
+ 	-webkit-border-radius: 5px;
+ 	-moz-border-radius: 5px;
+ }
+ .mainheader nav ul {
+ 	text-align: center;
+ 	list-style: none;
+ 	margin: 0 auto;
+ }
+ .mainheader nav ul li {
+ 	display: inline;
+ }
+ .mainheader a:link, .mainheader a:visited {
+ 	color: white;
+ 	padding: 10px 40px;
+ 	display: inline-block;
+ 	height: 20px;
+ }
+.mainheader a:hover, .mainheader a:active {
+ 	color: white;
+ 	background-color: #f58233;
+ }
+  /* ----------------- 	MAIN CONTENT -----------*/
+.top-content {
+	background-color: #fff;
+	padding: 3%;
+	margin-top: 3%;
+	border-radius: 5px;
+ 	-webkit-border-radius: 5px;
+ 	-moz-border-radius: 5px;
+
+}
