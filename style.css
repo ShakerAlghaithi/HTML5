@@ -27,6 +27,9 @@ Auther: Shaker Alghaithi;
  /* ----------------- 	MAIN HEADER -----------*/
  .mainheader img {
  	width: 100%;
+ 	border-radius: 5px;
+ 	-webkit-border-radius: 5px;
+ 	-moz-border-radius: 5px;
  }
  .mainheader nav {
  	background-color: #e74c3c;
@@ -54,6 +57,10 @@ Auther: Shaker Alghaithi;
  	background-color: #f58233;
  }
   /* ----------------- 	MAIN CONTENT -------------*/
+.mainContent {
+	width: 70%;
+	float: left;
+}
 .top-content {
 	background-color: #fff;
 	padding: 3%;
@@ -70,4 +77,32 @@ Auther: Shaker Alghaithi;
 }
 .post-content {
 	display: inline;
+}
+/* -----------------side bar -------------*/
+.theSideBar {
+	width: 24%;
+	margin: 2% 0 0 2%;
+	padding: 2%;
+	float: left;
+	background-color: #fff;
+	border-radius: 5px;
+ 	-webkit-border-radius: 5px;
+ 	-moz-border-radius: 5px;
+} 
+/* -----------FOOTER--------*/
+.footer {
+	margin-top: 20px;
+	float: left;
+	width: 100%;
+	background-color: #e74c3c;
+ 	height: 40px;
+ 	border-radius: 5px;
+ 	-webkit-border-radius: 5px;
+ 	-moz-border-radius: 5px;
+ 	
+}
+.footer p {
+	text-align: center;
+	color: white;
+	width: 90%;
 }
