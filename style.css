@@ -114,3 +114,22 @@ figure {
 	font-size: 80%;
 	color: #999;
 }
+/* -----------css3 for mobile--------*/
+/* --- break point and responsive web site --*/
+@media screen and (max-width: 480px){
+   .body {
+   	 width: 90%;
+   	 font-size: 95%;
+   }
+ 
+/* ------ css3 for ipod -----*/
+/*------- breakpoint 680px ----*/
+@media screen and (max-width: 680px){
+   .body {
+   	 width: 90%;
+   	 font-size: 95%;
+   }
+   .mainheader nav {
+   	 font-size: 80%
+   }
+ }

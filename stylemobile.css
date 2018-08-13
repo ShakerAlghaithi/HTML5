@@ -1,0 +1,29 @@
+/* ----------------- 	MAIN HEADER mobile -----------*/
+ 
+	.mainheader nav {
+	 	
+	 	height: 160px;
+	 }
+	 .mainheader ul {
+	 	width: 100%;
+	 	padding: 0;
+	 }
+	 .mainheader nav ul li {
+	 	display: inline;
+	 }
+	 .mainheader a:link, .mainheader a:visited {
+	 	display: block;
+	 }
+	.mainheader a:hover, .mainheader a:active {
+	 	color: white;
+	 	background-color: #f58233;
+	 }
+	 .mainContent{
+	 	width: 100%;
+	 }
+	 /* -----------------side bar -------------*/
+	.theSideBar {
+		width: 94%;
+		margin: 10px;
+	} 
+}
